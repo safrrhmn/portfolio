@@ -1,0 +1,24 @@
+body{
+    background-color: lightblue;
+    font-family: Bad Script;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.header{
+    color: black;
+    font-size: 5em;
+}
+.aboutMe{
+    font-family: 'Courier New', Courier, monospace;
+    word-wrap: none;
+    width: 50em;
+}
+
+.mainNav{
+    background-image: url("images/hmbrg_menu.png");
+    float: left;
+    
+
+}
