@@ -1,16 +1,18 @@
-body {
+#main {
   background-color: azure;
   font-family: Bad Script;
-  position: absolute;
+  width: 100%;
+  margin: 0 auto;
+  color: black;
 }
 .header {
-  color: black;
+  color:black;
   font-size: 5em;
 }
 .aboutMe {
   font-family: "Courier New", Courier, monospace;
   word-wrap: none;
-  width: 50em;
+  width: 100%;
   text-align: left;
 }
 
