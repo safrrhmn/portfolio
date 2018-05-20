@@ -1,19 +1,33 @@
+
 #main {
   background-color: azure;
   font-family: Bad Script;
-  width: 100%;
-  margin: 0 auto;
+  width: 100%;  
   color: black;
-}
-.header {
-  color:black;
-  font-size: 5em;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
 }
 .aboutMe {
   font-family: "Courier New", Courier, monospace;
-  word-wrap: none;
-  width: 100%;
   text-align: left;
 }
 
-/*Grid*/
+.headerContainer{
+  background-color: aliceblue;
+  text-align: center;  
+  border: 1px solid rgba(0,0,0,.125);
+  overflow: hidden;
+  width: 100%;
+}
+#profileImg{
+  border-radius: 50%;
+  height: 50%;
+  width: 5%;
+
+}
+
+#mainContainer{
+  display: flex;
+  flex-direction: row;
+}
