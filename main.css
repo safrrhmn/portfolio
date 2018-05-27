@@ -14,13 +14,14 @@
 }
 
 .headerContainer h3 {
-  font-size: 300%;
-  text-shadow: 5px 10px 5px wheat;
+  font-size: 300%;  
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
 #profileImg {
-  border-radius: 50%;
+  border-radius: 100%;
+  width: 5%;
+  height: 0%;
 }
 
 #mainContainer {
@@ -47,7 +48,7 @@
 }
 .Iam .innerIam {
   display: inline-block;
-  text-shadow: 5px 10px 2px wheat;
+  text-shadow: 5px 10px 5px wheat;
   position: relative;
   white-space: nowrap;
 
