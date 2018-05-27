@@ -1,11 +1,9 @@
 #main {
   background-color: azure;
   font-family: Bad Script;
-  width: 100%;
   color: black;
   height: 100%;
   margin: 0 auto;
-  padding: 0;
 }
 .aboutMe {
   font-family: "Courier New", Courier, monospace;
@@ -24,10 +22,142 @@
   height: 50%;
   width: 5%;
 }
-
 #mainContainer {
-  display: flex;
-  flex-direction: column;
   width: 50%;
-  height: 50%;
+  height: 20%;
+  margin: 0 auto;
+}
+
+/*changeable*/
+body {
+  background: #2d2d2d;
+}
+
+.changeable {
+  padding: 2em 5em;
+}
+.changeable p {
+  height: 50px;
+  float: left;
+  margin-right: 0.3em;
+}
+.changeable b {
+  float: left;
+  overflow: hidden;
+  position: relative;
+  height: 50px;
+  top: 40px;
+}
+.changeable .changeText {
+  display: inline-block;
+  color: black;
+  position: relative;
+  white-space: nowrap;
+  top: 0;
+  left: 0;
+
+  /*animation*/
+  -webkit-animation: move 10s;
+  -moz-animation: move 10s;
+  -ms-animation: move 10s;
+  -o-animation: move 10s;
+  animation: move 10s;
+  /*animation-iteration-count*/
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  /*animation-delay*/
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -ms-animation-delay: 1s;
+  -o-animation-delay: 1s;
+  animation-delay: 1s;
+}
+@keyframes move {
+  0% {
+    top: 0px;
+  }
+  20% {
+    top: -50px;
+  }
+  40% {
+    top: -100px;
+  }
+  60% {
+    top: -150px;
+  }
+  80% {
+    top: -200px;
+  }
+}
+
+@-webkit-keyframes move {
+  0% {
+    top: 0px;
+  }
+  20% {
+    top: -50px;
+  }
+  40% {
+    top: -100px;
+  }
+  60% {
+    top: -150px;
+  }
+  80% {
+    top: -200px;
+  }
+}
+@-moz-keyframes move {
+  0% {
+    top: 0px;
+  }
+  20% {
+    top: -50px;
+  }
+  40% {
+    top: -100px;
+  }
+  60% {
+    top: -150px;
+  }
+  80% {
+    top: -200px;
+  }
+}
+@-o-keyframes move {
+  0% {
+    top: 0px;
+  }
+  20% {
+    top: -50px;
+  }
+  40% {
+    top: -100px;
+  }
+  60% {
+    top: -150px;
+  }
+  80% {
+    top: -200px;
+  }
+}
+@keyframes move {
+  0% {
+    top: 0px;
+  }
+  20% {
+    top: -50px;
+  }
+  40% {
+    top: -100px;
+  }
+  60% {
+    top: -150px;
+  }
+  80% {
+    top: -200px;
+  }
 }
