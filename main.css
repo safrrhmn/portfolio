@@ -1,56 +1,64 @@
 #main {
-  background-color: azure;
-  font-family: Bad Script;
-  color: black;
-  height: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: azure;
+  width: 100%;
   margin: 0 auto;
+  background: url("/images/background.jpg") repeat 0 0;
+  background-size: cover;
 }
 .aboutMe {
-  font-family: "Courier New", Courier, monospace;
-  text-align: left;
+  float: left;
+  width: 50%;
 }
 
 .headerContainer {
-  background-color: aliceblue;
   text-align: center;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  overflow: hidden;
+  box-shadow: 0 1px 3px 1px #e7e8ec;
   width: 100%;
+  overflow: hidden;
+}
+
+.headerContainer h3 {
+  font-size: 400%;
+  text-shadow: 10px 15px 11px gray;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 #profileImg {
   border-radius: 50%;
-  height: 50%;
+  height: 0%;
   width: 5%;
 }
+
 #mainContainer {
-  width: 50%;
-  height: 20%;
+  display: flex;
+  flex-direction: row;
+  padding: 1em;
+  text-align: left;
+  width: 80%;
   margin: 0 auto;
+}
+#mainContainer > div {
+  box-shadow: 0 1px 3px 1px #e7e8ec;
+  padding: 40px 40px;
+  border-radius: 3px;
 }
 
 /*changeable*/
-body {
-  background: #2d2d2d;
+.Iam {
+  width: 50%;
+  font: bold 20px/25px large;
+  float: right;
 }
 
-.changeable {
-  padding: 2em 5em;
-}
-.changeable p {
-  height: 50px;
-  float: left;
-  margin-right: 0.3em;
-}
-.changeable b {
+.Iam b {
   float: left;
   overflow: hidden;
-  position: relative;
-  height: 50px;
-  top: 40px;
+  height: 75px;
 }
-.changeable .changeText {
+.Iam .innerIam {
   display: inline-block;
-  color: black;
+  text-shadow: 5px 10px 2px wheat;
   position: relative;
   white-space: nowrap;
   top: 0;
@@ -75,6 +83,15 @@ body {
   -o-animation-delay: 1s;
   animation-delay: 1s;
 }
+@keyframes slide {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -400px 0;
+  }
+}
+
 @keyframes move {
   0% {
     top: 0px;

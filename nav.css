@@ -1,5 +1,6 @@
 /* Style the links inside the navigation bar */
 .topnav a {
+  color: inherit;
   float: right;
   text-align: center;
   padding: 14px 16px;
@@ -15,7 +16,7 @@
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: wheat;
-  color: black;
+  color: inherit;
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
   display: inline-block;
