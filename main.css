@@ -6,11 +6,6 @@
   background: url("/images/background.jpg") repeat 0 0;
   background-size: cover;
 }
-.aboutMe {
-  float: left;
-  width: 50%;
-}
-
 .headerContainer {
   text-align: center;
   box-shadow: 0 1px 3px 1px #e7e8ec;
@@ -19,15 +14,13 @@
 }
 
 .headerContainer h3 {
-  font-size: 400%;
-  text-shadow: 10px 15px 11px gray;
+  font-size: 300%;
+  text-shadow: 5px 10px 5px wheat;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
 #profileImg {
   border-radius: 50%;
-  height: 0%;
-  width: 5%;
 }
 
 #mainContainer {
@@ -35,34 +28,28 @@
   flex-direction: row;
   padding: 1em;
   text-align: left;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 #mainContainer > div {
   box-shadow: 0 1px 3px 1px #e7e8ec;
   padding: 40px 40px;
-  border-radius: 3px;
 }
 
 /*changeable*/
 .Iam {
-  width: 50%;
   font: bold 20px/25px large;
-  float: right;
 }
-
 .Iam b {
   float: left;
   overflow: hidden;
-  height: 75px;
+  height: 80px;
 }
 .Iam .innerIam {
   display: inline-block;
   text-shadow: 5px 10px 2px wheat;
   position: relative;
   white-space: nowrap;
-  top: 0;
-  left: 0;
 
   /*animation*/
   -webkit-animation: move 10s;
@@ -77,11 +64,11 @@
   -o-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
   /*animation-delay*/
-  -webkit-animation-delay: 1s;
-  -moz-animation-delay: 1s;
-  -ms-animation-delay: 1s;
-  -o-animation-delay: 1s;
-  animation-delay: 1s;
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  -ms-animation-delay: 3s;
+  -o-animation-delay: 2s;
+  animation-delay: 2s;
 }
 @keyframes slide {
   from {
@@ -108,6 +95,9 @@
   80% {
     top: -200px;
   }
+  100% {
+    top: -250px;
+  }
 }
 
 @-webkit-keyframes move {
@@ -126,6 +116,9 @@
   80% {
     top: -200px;
   }
+  100% {
+    top: -250px;
+  }
 }
 @-moz-keyframes move {
   0% {
@@ -142,6 +135,9 @@
   }
   80% {
     top: -200px;
+  }
+  100% {
+    top: -250px;
   }
 }
 @-o-keyframes move {
@@ -160,6 +156,9 @@
   80% {
     top: -200px;
   }
+  100% {
+    top: -250px;
+  }
 }
 @keyframes move {
   0% {
@@ -176,5 +175,8 @@
   }
   80% {
     top: -200px;
+  }
+  100% {
+    top: -250px;
   }
 }
