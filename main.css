@@ -1,10 +1,11 @@
 #main {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: azure;
+  color: white;
   width: 100%;
   margin: 0 auto;
   background: url("/images/background.jpg") repeat 0 0;
-  background-size: cover;
+  background-size: 100%, 100%, contain;
+  background-repeat: no-repeat;
 }
 .headerContainer {
   text-align: center;
@@ -14,7 +15,7 @@
 }
 
 .headerContainer h3 {
-  font-size: 300%;  
+  font-size: 300%;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
@@ -35,6 +36,17 @@
 #mainContainer > div {
   box-shadow: 0 1px 3px 1px #e7e8ec;
   padding: 40px 40px;
+}
+
+/*CV section*/
+#pdf_content {
+  height: 700px;
+  width: 45%;
+}
+
+#iframe-resume {
+  text-align: center;
+  height: 50%;
 }
 
 /*changeable*/
