@@ -6,44 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Saifur's Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="images/favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="images/favicon/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
     <link href='https://fonts.googleapis.com/css?family=Bad Script' rel='stylesheet'>
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="nav.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/nav.css" />
+    <script src="js/main.js"></script>
 </head>
 
 <body id="main">
     <div class="topnav">
-        <img src="/images/favicon/favicon-32x32.png" alt="logo-saifur" title="s@ifur">
-        <span>Saifur Rahman</span>
-
-        <a class="active" href="#home">Home</a>
-        <a href="https://letmedothat.wordpress.com/">Blog</a>
-        <a href="#contact">Contact</a>
-        <a href="aboutMe.html">About</a>
+        <a href="index.html">
+            <img id="logo" src="/img/favicon/favicon-96x96.png" alt="logo-saifur" title="s@ifur">
+        </a>
+        <a class="active navLink" href="index.html">Home</a>
+        <a class="navLink" href="https://letmedothat.wordpress.com/">Blog</a>
+        <a class="navLink" href="works.html">Recent Works</a>
     </div>
-    <header class="headerContainer">
-        <img id="profileImg" src="/images/saifur.jpg">
-        <h3>Saifur Rahman</h3>
-        <p>Gearing towards full-stack web development</p>
-    </header>
+    <div class="headerContainer">
+        <header>
+            <a href="index.html">
+                <img id="profileImg" src="img/saifur.jpg">
+            </a>
+            <h3>Saifur Rahman</h3>
+            <p>Gearing towards full-stack web development</p>
+        </header>
+    </div>
+
     <section id="mainContainer">
         <div class="Iam">
             <h3>
@@ -75,25 +63,26 @@
             </p>
         </div>
         <div class="contacts">
+
             <ul>
                 <a href="https://stackoverflow.com/users/3821981/saifur?tab=profile">
-                    <img src="images/icons/icons8-stack-overflow-48.png" alt="stackoverflow">
+                    <img src="img/icons/icons8-stack-overflow-48.png" alt="stackoverflow">
                     <span>Stack Overflow</span>
                 </a>
                 <a href="linkedin.com/in/saifurrahmanmitul">
-                    <img src="/images/icons/icons8-linkedin-48.png" alt="linkedin">
+                    <img src="/img/icons/icons8-linkedin-48.png" alt="linkedin">
                     <span>LinkedIn</span>
                 </a>
                 <a href="https://twitter.com/safrrhmn">
-                    <img src="/images/icons/icons8-twitter-squared-48.png" alt="twitter">
+                    <img src="/img/icons/icons8-twitter-squared-48.png" alt="twitter">
                     <span>Twitter</span>
                 </a>
                 <a href="https://github.com/safrrhmn">
-                    <img src="/images/icons/icons8-github-48.png" alt="github">
+                    <img src="/img/icons/icons8-github-48.png" alt="github">
                     <span>Github</span>
                 </a>
                 <a href="mailto:safrrhmn@hotmail.com">
-                    <img src="/images/icons/icons8-secured-letter-48.png" alt="mailto">
+                    <img src="/img/icons/icons8-secured-letter-48.png" alt="mailto">
                     <span>Email</span>
                 </a>
             </ul>
@@ -101,29 +90,30 @@
         </div>
 
     </section>
-</body>
-<footer class="footer">
-    <span class="copyright">© 2018 Saifur Rahman</span>
-    <div class="contacts-footer">
-        <ul>
-            <a href="https://stackoverflow.com/users/3821981/saifur?tab=profile">
-                <img src="/images/icons/icons8-stack-overflow-48.png" alt="stackoverflow">
-            </a>
-            <a href="linkedin.com/in/saifurrahmanmitul">
-                <img src="/images/icons/icons8-linkedin-48.png" alt="linkedin">
-            </a>
-            <a href="https://twitter.com/safrrhmn">
-                <img src="/images/icons/icons8-twitter-squared-48.png" alt="twitter">
-            </a>
-            <a href="https://github.com/safrrhmn">
-                <img src="/images/icons/icons8-github-48.png" alt="github">
-            </a>
-            <a href="mailto:safrrhmn@hotmail.com">
-                <img src="/images/icons/icons8-secured-letter-48.png" alt="mailto">
-            </a>
-        </ul>
+    <footer class="footer">
+        <div class="copyright">© 2018 Saifur Rahman</div>
+        <div class="contacts-footer">
+            <ul>
+                <a href="https://stackoverflow.com/users/3821981/saifur?tab=profile">
+                    <img src="/img/icons/icons8-stack-overflow-48.png" alt="stackoverflow">
+                </a>
+                <a href="linkedin.com/in/saifurrahmanmitul">
+                    <img src="/img/icons/icons8-linkedin-48.png" alt="linkedin">
+                </a>
+                <a href="https://twitter.com/safrrhmn">
+                    <img src="/img/icons/icons8-twitter-squared-48.png" alt="twitter">
+                </a>
+                <a href="https://github.com/safrrhmn">
+                    <img src="/img/icons/icons8-github-48.png" alt="github">
+                </a>
+                <a href="mailto:safrrhmn@hotmail.com">
+                    <img src="/img/icons/icons8-secured-letter-48.png" alt="mailto">
+                </a>
+            </ul>
 
-    </div>
-</footer>
+        </div>
+    </footer>
+</body>
+
 
 </html>

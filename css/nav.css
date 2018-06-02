@@ -1,0 +1,48 @@
+.topnav {
+  overflow: hidden;
+  position: sticky;
+  background-color: inherit;
+  box-shadow: 0 1px 3px 0px black;
+  top: 0;
+  width: 100%;
+}
+/* Style the links inside the navigation bar. idea from  */
+.topnav > .navLink {
+  color: inherit;
+  float: right;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+}
+#logo {
+  float: left;
+  height: 100px;
+}
+
+/* Change the color of links on hover */
+.topnav.navLink:hover {
+  background-color: wheat;
+  color: inherit;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  display: inline-block;
+  transition: 0.3s;
+}
+
+/* Responsive*/
+@media only screen and (max-width: 360px) {
+  .topnav {
+    display: grid;
+  }
+  .topnav > .navLink {
+    text-align: right;
+    padding: 5px 5px;
+    font-size: 12px;
+  }
+  #logo {
+    float: left;
+    height: 100px;
+  }
+}
