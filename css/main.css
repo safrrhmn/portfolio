@@ -10,7 +10,6 @@
   text-align: center;
   box-shadow: 0 1px 3px 0px black;
   width: 100%;
-  overflow: hidden;
   background-color: whitesmoke;
 }
 
@@ -25,19 +24,24 @@
   height: 0%;
 }
 
-#mainContainer {
+.flexContainer {
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
   padding: 1em;
   text-align: left;
   width: 90%;
   margin: 0 auto;
 }
-#mainContainer > div {
+.individualProject {
   box-shadow: 0 1px 3px 0px black;
   padding: 40px 40px;
 }
-
+.aboutMe {
+  width: 35%;
+}
+.contacts {
+  width: 10%;
+}
 .contacts {
   color: inherit;
 }
@@ -58,6 +62,10 @@
   float: left;
 }
 
+.workImg {
+  width: 200px;
+  height: 200px;
+}
 .contacts-footer {
   float: right;
 }
@@ -68,7 +76,7 @@
   height: 20px;
 }
 
-.footer {
+#footer {
   position: fixed;
   bottom: 0;
   left: 0;
@@ -76,9 +84,23 @@
   color: gray;
 }
 
+/* Change the color of links on hover */
+.topnav .navLink:hover,
+#logo:hover,
+#profileImg:hover,
+.individualProject:hover {
+  background-color: whitesmoke;
+  color: inherit;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  display: inline-block;
+  transition: 0.3s;
+}
+
 /*animation. idea taken from https://codepen.io/safrrhmn/pen/gzJwmG*/
 .Iam {
   font: bold 20px/25px large;
+  width: 35%;
 }
 .Iam b {
   float: left;
@@ -98,9 +120,16 @@
   .Iam {
     font: bold 12px/25px small;
   }
-  .footer {
-    display: none;
-  }
+}
+.workHeader {
+  text-align: center;
+}
+#mainWorkContainer {
+  background-color: whitesmoke;
+}
+
+.workFlexContainer > div {
+  width: 20%;
 }
 
 /*iPad*/

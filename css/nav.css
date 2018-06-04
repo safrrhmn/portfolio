@@ -21,15 +21,6 @@
   height: 100px;
 }
 
-/* Change the color of links on hover */
-.topnav.navLink:hover {
-  background-color: wheat;
-  color: inherit;
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
-  display: inline-block;
-  transition: 0.3s;
-}
 
 /* Responsive*/
 @media only screen and (max-width: 360px) {
