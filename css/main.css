@@ -108,19 +108,6 @@
   height: 80px;
 }
 
-@media only screen and (max-width: 400px) {
-  #mainContainer {
-    display: flex;
-    flex-direction: column;
-  }
-  .headerContainer img {
-    border-radius: 100%;
-    width: 25%;
-  }
-  .Iam {
-    font: bold 12px/25px small;
-  }
-}
 .workHeader {
   text-align: center;
 }
@@ -133,7 +120,7 @@
 }
 
 /*iPad*/
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
   #mainContainer {
     display: flex;
     flex-direction: column;
@@ -144,6 +131,26 @@
   }
   .contacts > ul > a {
     display: table;
+  }
+  .individualProject {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #mainContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .headerContainer img {
+    border-radius: 100%;
+    width: 25%;
+  }
+  .Iam {
+    font: bold 12px/25px small;
+  }
+  .individualProject {
+    width: 80%;
   }
 }
 
